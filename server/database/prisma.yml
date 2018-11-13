@@ -1,0 +1,6 @@
+datamodel: datamodel.graphql
+secret: mysecret123
+hooks:
+  post-deploy:
+    - npm graphql get-schema --project foo
+endpoint: https://us1.prisma.sh/jon-moore-9ffc3c/foo/bar
