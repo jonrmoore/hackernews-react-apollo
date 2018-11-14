@@ -17,7 +17,7 @@ class Header extends Component {
           </Link>
         </div>
       </div>
-    )
+    );
   }
 }
 
