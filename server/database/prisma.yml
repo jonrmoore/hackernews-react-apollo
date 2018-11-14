@@ -1,5 +1,5 @@
 datamodel: datamodel.graphql
-endpoint: https://us1.prisma.sh/jon-moore-9ffc3c/database/bar
+endpoint: https://us1.prisma.sh/jon-moore-9ffc3c/database/
 secret: mysecret123
 hooks:
   post-deploy:
