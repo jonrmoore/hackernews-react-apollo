@@ -49,7 +49,12 @@ class LinkList extends Component {
           return (
             <div>
               {linksToRender.map((link, index) => (
-                <Link key={link.id} link={link} index={index} updateStoreAfterVote={this._updateCacheAfterVote} />
+                <Link 
+                  key={link.id} 
+                  link={link} 
+                  index={index} 
+                  updateStoreAfterVote={this._updateCacheAfterVote} 
+                />
               ))}
             </div>
           );          
